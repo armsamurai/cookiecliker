@@ -52,7 +52,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI blueberryText;
 
     [SerializeField] TextMeshProUGUI cookiesText;
-    [SerializeField] TextMeshProUGUI cookiesProfitText;
     [SerializeField] TextMeshProUGUI cookiesPerClickText;
     [SerializeField] TextMeshProUGUI autoCookiesText;
     [SerializeField] TextMeshProUGUI infoText;
@@ -75,7 +74,6 @@ public class GameManager : MonoBehaviour
     void CookiesInfoTextProcess()
     {
         cookiesText.text = cookies.ToString();
-        cookiesProfitText.text = (cookiesPerClick + autoCookies).ToString();
         cookiesPerClickText.text = cookiesPerClick.ToString();
         autoCookiesText.text = autoCookies.ToString();
     }
