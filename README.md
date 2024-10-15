@@ -1,2 +1,2 @@
 # cookiecliker
-First project on Unity for lessons
+Первый проект из курса "Разработка игр на Unity" для детей в Академии CODE_GAP
